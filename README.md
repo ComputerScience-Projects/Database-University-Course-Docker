@@ -49,7 +49,7 @@ Per eseguire tramite linea di comando utilizzate le seguenti credenziali:
 > port: 5432
 
 ## Condividiere file tra il Docker e il File System host
-Dopo l'installazione tramite il file setup.sh è possibile trasferire file tra host e docker tramite la cartella nel file system host situata nella locazione: /tmp/dockerFOLDER
+Dopo l'installazione tramite il file setup.sh è possibile trasferire file tra host e docker tramite la cartella nel file system host situata nella locazione: $HOME/dockerFOLDER
 
 È possibile eseguire query o file sql tramite l'interfaccia grafica di pgadmin4 con l'utilizzo del suo query editor.
 
