@@ -47,7 +47,14 @@ Per eseguire tramite linea di comando utilizzate le seguenti credenziali:
 > id: postgres
 > password: basedati2
 > port: 5432
-##### Utilizzare PostgreSQL da linea di comando:
+
+## Condividiere file tra il Docker e il File System host
+Dopo l'installazione tramite il file setup.sh è possibile trasferire file tra host e docker tramite la cartella nel file system host situata nella locazione: /tmp/dockerFOLDER
+
+È possibile eseguire query o file sql tramite l'interfaccia grafica di pgadmin4 con l'utilizzo del suo query editor.
+
+
+## Utilizzare PostgreSQL da linea di comando:
 Eseguire il seguente comando per accedere alla shell del container.
 ```sh
 $ sudo docker exec -it postgres_container bash
