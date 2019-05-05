@@ -7,7 +7,7 @@ while getopts h option
     h) echo -e "DB CREDENTIAL: \nUser: postgres \nPassword: basedati2 \nport:5432\n\nPGADMIN4 CREDENTIAL: \nid: base@dati2.it \npassword: basedati2 \nport:5000" && exit 0;;
     esac
 done
-sudo mkdir -p /tmp/dockerFOLDER
+sudo mkdir -p $HOME/dockerFOLDER
 if ! [ -x "$(which docker)" ]; then
   echo 'Error: docker is not installed.' >&2
   exit 1

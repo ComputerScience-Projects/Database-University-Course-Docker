@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-basedati2}
       PGDATA: /data/postgres
     volumes:
-       - /tmp/dockerFOLDER:/data/postgres
+       - $HOME/dockerFOLDER:/data/postgres
     ports:
       - "5432:5432"
     networks:
