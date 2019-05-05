@@ -63,7 +63,7 @@ $ psql -U postgres
 ## Authors
 
 * **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
-* **Valerio Neri**  [Github profile](https://github.com/selektion)
+* **Valerio Neri**   [Github profile](https://github.com/selektion)
 
 ## Riferimenti
 * **Docker:** [docker.com](https://www.docker.com/)
